@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="PRODUTOS" directorySegmentName="seg_0" id="1CA6238C-B2B7-CDA6-C7CB-584A4475376C">
+<createdBy>vinic</createdBy>
+<createdTime>2025-11-19 00:46:05 UTC</createdTime>
+<ownerDesignName>save</ownerDesignName>
+<schemaObject>920E62F5-FA40-EEF5-A001-30905F0BC2B0</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>050686E3-205B-4C27-220A-AEFC12881602</segment>
+<tableSpace>F735AD5D-C66B-9F14-AB74-3288D516EB06</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PRODUTOS_PK" id="F5B897EA-6462-D2DF-AB8C-53F59DB65CA2">
+<createdBy>vinic</createdBy>
+<createdTime>2025-11-19 00:46:05 UTC</createdTime>
+<ownerDesignName>save</ownerDesignName>
+<schemaObject>920E62F5-FA40-EEF5-A001-30905F0BC2B0</schemaObject>
+<segment>12D8D294-2C46-44B7-358C-F28B1A562284</segment>
+<tableSpace>F735AD5D-C66B-9F14-AB74-3288D516EB06</tableSpace>
+<indexSegment>12D8D294-2C46-44B7-358C-F28B1A562284</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="SYS_C008337" id="0E62BDF9-82AD-D905-4EDF-6A9FAF5EA82A">
+<createdBy>vinic</createdBy>
+<createdTime>2025-11-19 00:46:05 UTC</createdTime>
+<ownerDesignName>save</ownerDesignName>
+</TableCheckConstraint>
+</tableCheckConstraints>
+</TableProxyOraclev12c>

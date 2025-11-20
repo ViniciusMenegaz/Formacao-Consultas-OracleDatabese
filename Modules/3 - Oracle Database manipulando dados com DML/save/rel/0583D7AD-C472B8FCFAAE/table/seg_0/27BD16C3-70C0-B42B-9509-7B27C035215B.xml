@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="27BD16C3-70C0-B42B-9509-7B27C035215B" schemaObject="920E62F5-FA40-EEF5-A001-30905F0BC2B0" name="VENDEDORES">
+<sourceConnName>CONEX%C3%83O+M%C3%81QUINA+LOCAL</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>VENDEDORES</sourceObjName>
+<createdBy>vinic</createdBy>
+<createdTime>2025-11-19 00:46:50 UTC</createdTime>
+<ownerDesignName>save</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C8F7F630-0211-EDA5-0DB4-56FE76B8C6F3" schemaObject="920E62F5-FA40-EEF5-A001-30905F0BC2B0" name="VENDEDORES_PK">
+<sourceConnName>CONEX%C3%83O+M%C3%81QUINA+LOCAL</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>SYS_C008340</sourceObjName>
+<createdBy>vinic</createdBy>
+<createdTime>2025-11-19 00:46:50 UTC</createdTime>
+<ownerDesignName>save</ownerDesignName>
+<pk>true</pk>
+<indexExpression>MATRICULA</indexExpression>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="SYS_C008339" directorySegmentName="seg_0" id="07020042-50D8-7FAC-10A4-D70C78DB9232">
+<sourceConnName>CONEX%C3%83O+M%C3%81QUINA+LOCAL</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>SYS_C008339</sourceObjName>
+<createdBy>vinic</createdBy>
+<createdTime>2025-11-19 00:46:50 UTC</createdTime>
+<ownerDesignName>save</ownerDesignName>
+<rule><![CDATA["MATRICULA" IS NOT NULL]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

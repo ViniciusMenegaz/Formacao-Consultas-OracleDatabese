@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="CLIENTES" directorySegmentName="seg_0" id="75702137-490F-793D-1564-19151CD6F581">
+<createdBy>vinic</createdBy>
+<createdTime>2025-11-19 00:45:18 UTC</createdTime>
+<ownerDesignName>save</ownerDesignName>
+<schemaObject>920E62F5-FA40-EEF5-A001-30905F0BC2B0</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>050686E3-205B-4C27-220A-AEFC12881602</segment>
+<tableSpace>F735AD5D-C66B-9F14-AB74-3288D516EB06</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CLIENTES_PK" id="0AC361F0-846C-504B-5386-14057448CDF2">
+<createdBy>vinic</createdBy>
+<createdTime>2025-11-19 00:45:19 UTC</createdTime>
+<ownerDesignName>save</ownerDesignName>
+<schemaObject>920E62F5-FA40-EEF5-A001-30905F0BC2B0</schemaObject>
+<segment>12D8D294-2C46-44B7-358C-F28B1A562284</segment>
+<tableSpace>F735AD5D-C66B-9F14-AB74-3288D516EB06</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CLIENTES_PK" id="879CBC24-55DA-DD24-C1D5-2B149AE817E4">
+<createdBy>vinic</createdBy>
+<createdTime>2025-11-19 00:45:19 UTC</createdTime>
+<ownerDesignName>save</ownerDesignName>
+<segment>12D8D294-2C46-44B7-358C-F28B1A562284</segment>
+<tableSpace>F735AD5D-C66B-9F14-AB74-3288D516EB06</tableSpace>
+<existingIndex>0AC361F0-846C-504B-5386-14057448CDF2</existingIndex>
+<indexSegment>12D8D294-2C46-44B7-358C-F28B1A562284</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="SYS_C008350" id="9352E6D2-7374-68B6-F074-DD8799AB873E">
+<createdBy>vinic</createdBy>
+<createdTime>2025-11-19 00:45:19 UTC</createdTime>
+<ownerDesignName>save</ownerDesignName>
+</TableCheckConstraint>
+</tableCheckConstraints>
+</TableProxyOraclev12c>

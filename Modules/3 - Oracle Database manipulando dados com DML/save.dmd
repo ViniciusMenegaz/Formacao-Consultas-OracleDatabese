@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="save" id="F0FA831F-9EE6-144D-06A1-E46E5FE2848A" version="3.5">
+<createdBy>vinic</createdBy>
+<createdTime>2025-11-19 00:44:48 UTC</createdTime>
+<ownerDesignName>save</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>F0FA831F-9EE6-144D-06A1-E46E5FE2848A</designId>
+</OSDM_Design>

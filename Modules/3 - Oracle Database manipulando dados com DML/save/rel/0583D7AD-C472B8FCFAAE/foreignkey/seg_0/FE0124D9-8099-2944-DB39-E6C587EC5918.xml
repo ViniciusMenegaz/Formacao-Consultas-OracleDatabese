@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FE0124D9-8099-2944-DB39-E6C587EC5918" containerWithKeyObject="1E334585-B7EA-2F82-CE44-C5DF36536151" localFKIndex="054389E6-473C-AE8E-9EEC-A34E5247BCF8" name="FK_NOTAS">
+<sourceConnName>CONEX%C3%83O+M%C3%81QUINA+LOCAL</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>FK_NOTAS</sourceObjName>
+<createdBy>vinic</createdBy>
+<createdTime>2025-11-19 00:45:46 UTC</createdTime>
+<ownerDesignName>save</ownerDesignName>
+<referredTableLongName>SYSTEM.NOTAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<mandatory>false</mandatory>
+<refColNames>NUMERO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

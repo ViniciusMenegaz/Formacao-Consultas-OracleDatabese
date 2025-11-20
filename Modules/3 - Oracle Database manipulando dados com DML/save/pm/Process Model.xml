@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="AE0AEFD2-37F2-0544-8A85-654108ED0AAE">
+<createdBy>vinic</createdBy>
+<createdTime>2025-11-19 00:44:48 UTC</createdTime>
+<ownerDesignName>save</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

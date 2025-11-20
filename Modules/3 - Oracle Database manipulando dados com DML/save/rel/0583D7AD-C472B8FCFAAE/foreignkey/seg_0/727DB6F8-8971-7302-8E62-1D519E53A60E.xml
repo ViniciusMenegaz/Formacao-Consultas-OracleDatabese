@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="727DB6F8-8971-7302-8E62-1D519E53A60E" containerWithKeyObject="1E334585-B7EA-2F82-CE44-C5DF36536151" localFKIndex="2EBA5BDA-257C-D5FB-3F70-905C4AB8D0BC" name="FK_PRODUTOS">
+<sourceConnName>CONEX%C3%83O+M%C3%81QUINA+LOCAL</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>FK_PRODUTOS</sourceObjName>
+<createdBy>vinic</createdBy>
+<createdTime>2025-11-19 00:45:46 UTC</createdTime>
+<ownerDesignName>save</ownerDesignName>
+<referredTableLongName>SYSTEM.PRODUTOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<mandatory>false</mandatory>
+<refColNames>CODIGO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

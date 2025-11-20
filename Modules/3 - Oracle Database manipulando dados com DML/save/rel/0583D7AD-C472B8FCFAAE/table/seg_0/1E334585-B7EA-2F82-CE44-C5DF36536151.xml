@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E334585-B7EA-2F82-CE44-C5DF36536151" schemaObject="920E62F5-FA40-EEF5-A001-30905F0BC2B0" name="ITENS_NOTAS">
+<sourceConnName>CONEX%C3%83O+M%C3%81QUINA+LOCAL</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>ITENS_NOTAS</sourceObjName>
+<createdBy>vinic</createdBy>
+<createdTime>2025-11-19 00:45:44 UTC</createdTime>
+<ownerDesignName>save</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="361B4C23-9FAD-A26B-03B7-40DE620E0879" schemaObject="920E62F5-FA40-EEF5-A001-30905F0BC2B0" name="ITENS_NOTAS_PK">
+<sourceConnName>CONEX%C3%83O+M%C3%81QUINA+LOCAL</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>SYS_C008364</sourceObjName>
+<createdBy>vinic</createdBy>
+<createdTime>2025-11-19 00:45:45 UTC</createdTime>
+<ownerDesignName>save</ownerDesignName>
+<pk>true</pk>
+<indexExpression>NUMERO,CODIGO</indexExpression>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="054389E6-473C-AE8E-9EEC-A34E5247BCF8" name="FK_NOTAS">
+<createdBy>vinic</createdBy>
+<createdTime>2025-11-19 00:45:46 UTC</createdTime>
+<ownerDesignName>save</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="2EBA5BDA-257C-D5FB-3F70-905C4AB8D0BC" name="FK_PRODUTOS">
+<createdBy>vinic</createdBy>
+<createdTime>2025-11-19 00:45:46 UTC</createdTime>
+<ownerDesignName>save</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="SYS_C008362" directorySegmentName="seg_0" id="6B97811A-2D38-02AC-F196-E98DFCAEB6F1">
+<sourceConnName>CONEX%C3%83O+M%C3%81QUINA+LOCAL</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>SYS_C008362</sourceObjName>
+<createdBy>vinic</createdBy>
+<createdTime>2025-11-19 00:45:46 UTC</createdTime>
+<ownerDesignName>save</ownerDesignName>
+<rule><![CDATA["NUMERO" IS NOT NULL]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="SYS_C008363" directorySegmentName="seg_0" id="CEE3B0C3-2667-0876-691E-3BC24F02F771">
+<sourceConnName>CONEX%C3%83O+M%C3%81QUINA+LOCAL</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>SYS_C008363</sourceObjName>
+<createdBy>vinic</createdBy>
+<createdTime>2025-11-19 00:45:46 UTC</createdTime>
+<ownerDesignName>save</ownerDesignName>
+<rule><![CDATA["CODIGO" IS NOT NULL]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

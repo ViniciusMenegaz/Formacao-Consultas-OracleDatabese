@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75702137-490F-793D-1564-19151CD6F581" schemaObject="920E62F5-FA40-EEF5-A001-30905F0BC2B0" name="CLIENTES">
+<sourceConnName>CONEX%C3%83O+M%C3%81QUINA+LOCAL</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>CLIENTES</sourceObjName>
+<createdBy>vinic</createdBy>
+<createdTime>2025-11-19 00:45:18 UTC</createdTime>
+<ownerDesignName>save</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="879CBC24-55DA-DD24-C1D5-2B149AE817E4" name="CLIENTES_PK">
+<sourceConnName>CONEX%C3%83O+M%C3%81QUINA+LOCAL</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>CLIENTES_PK</sourceObjName>
+<createdBy>vinic</createdBy>
+<createdTime>2025-11-19 00:45:19 UTC</createdTime>
+<ownerDesignName>save</ownerDesignName>
+<pk>true</pk>
+<indexExpression>CPF</indexExpression>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="0AC361F0-846C-504B-5386-14057448CDF2" schemaObject="920E62F5-FA40-EEF5-A001-30905F0BC2B0" name="CLIENTES_PK">
+<sourceConnName>CONEX%C3%83O+M%C3%81QUINA+LOCAL</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>CLIENTES_PK</sourceObjName>
+<createdBy>vinic</createdBy>
+<createdTime>2025-11-19 00:45:19 UTC</createdTime>
+<ownerDesignName>save</ownerDesignName>
+<indexExpression>CPF</indexExpression>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="SYS_C008350" directorySegmentName="seg_0" id="9352E6D2-7374-68B6-F074-DD8799AB873E">
+<sourceConnName>CONEX%C3%83O+M%C3%81QUINA+LOCAL</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>SYS_C008350</sourceObjName>
+<createdBy>vinic</createdBy>
+<createdTime>2025-11-19 00:45:19 UTC</createdTime>
+<ownerDesignName>save</ownerDesignName>
+<rule><![CDATA["CPF" IS NOT NULL]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

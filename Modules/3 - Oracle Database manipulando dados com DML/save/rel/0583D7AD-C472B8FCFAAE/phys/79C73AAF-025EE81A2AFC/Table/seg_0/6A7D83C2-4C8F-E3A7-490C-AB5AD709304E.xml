@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="NOTAS" directorySegmentName="seg_0" id="6A7D83C2-4C8F-E3A7-490C-AB5AD709304E">
+<createdBy>vinic</createdBy>
+<createdTime>2025-11-19 00:47:36 UTC</createdTime>
+<ownerDesignName>save</ownerDesignName>
+<schemaObject>920E62F5-FA40-EEF5-A001-30905F0BC2B0</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>050686E3-205B-4C27-220A-AEFC12881602</segment>
+<tableSpace>F735AD5D-C66B-9F14-AB74-3288D516EB06</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CLIENTES" id="12EDDFD6-AA13-7A38-BA82-1E446EF08DBA">
+<createdBy>vinic</createdBy>
+<createdTime>2025-11-19 00:47:36 UTC</createdTime>
+<ownerDesignName>save</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_VENDEDORES" id="FE19C62F-0583-92C2-E74D-FD06E4115EE7">
+<createdBy>vinic</createdBy>
+<createdTime>2025-11-19 00:47:36 UTC</createdTime>
+<ownerDesignName>save</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="NOTAS_PK" id="E1C3FEC7-808A-8455-306F-DA9042D3F3AC">
+<createdBy>vinic</createdBy>
+<createdTime>2025-11-19 00:47:36 UTC</createdTime>
+<ownerDesignName>save</ownerDesignName>
+<schemaObject>920E62F5-FA40-EEF5-A001-30905F0BC2B0</schemaObject>
+<segment>12D8D294-2C46-44B7-358C-F28B1A562284</segment>
+<tableSpace>F735AD5D-C66B-9F14-AB74-3288D516EB06</tableSpace>
+<indexSegment>12D8D294-2C46-44B7-358C-F28B1A562284</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="SYS_C008356" id="174E0D12-E811-FB5A-4922-B9534F9D661F">
+<createdBy>vinic</createdBy>
+<createdTime>2025-11-19 00:47:36 UTC</createdTime>
+<ownerDesignName>save</ownerDesignName>
+</TableCheckConstraint>
+<TableCheckConstraint name="SYS_C008357" id="22024465-4AE7-01EB-C639-2A6DCBD3EF9B">
+<createdBy>vinic</createdBy>
+<createdTime>2025-11-19 00:47:36 UTC</createdTime>
+<ownerDesignName>save</ownerDesignName>
+</TableCheckConstraint>
+<TableCheckConstraint name="SYS_C008358" id="CD56B54E-6D08-CAF7-E7B0-507CF8493BBA">
+<createdBy>vinic</createdBy>
+<createdTime>2025-11-19 00:47:36 UTC</createdTime>
+<ownerDesignName>save</ownerDesignName>
+</TableCheckConstraint>
+</tableCheckConstraints>
+</TableProxyOraclev12c>

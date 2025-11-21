@@ -1,0 +1,25 @@
+DECLARE 
+    v_ID SEGMERCADO.ID%TYPE := 3;
+    v_DESCRICAO SEGMERCADO.DESCRICAO%TYPE := 'Atacado';
+BEGIN 
+    INSERT INTO SEGMERCADO (ID, DESCRICAO) VALUES (v_ID,v_DESCRICAO);
+    COMMIT;
+END;    
+
+select * from SEGMERCADO;
+
+------------------------------------------------------------------------------
+--desafio
+
+DECLARE
+   v_COD PRODUTO_EXERCICIO.COD%TYPE := '32223';
+   v_DESCRICAO PRODUTO_EXERCICIO.DESCRICAO%TYPE := 'Sabor de Verão - Uva - 1 Litro';
+   v_CATEGORIA PRODUTO_EXERCICIO.CATEGORIA%TYPE:= 'Sucos de Frutas';
+BEGIN
+   UPDATE PRODUTO_EXERCICIO SET DESCRICAO = 'Sabor de Verão - Uva - 1 Litro' WHERE COD = '32223';
+   COMMIT;
+END;
+
+
+SELECT * FROM PRODUTO_EXERCICIO;
+
